@@ -3768,7 +3768,7 @@ ul.list1.listfullcols li {
 .black_button i {
 	margin-right: 6px;
 }
-.footer_row {
+.f {
 	border-top: 1px solid rgba(255, 255, 255, 0.1);
 	padding: 35px 0 40px;
 }
@@ -5712,6 +5712,7 @@ a.img_popup:after {
 }
 .normal_text_slider .c_say {
 	text-align: center;
+
 }
 .normal_text_slider .client_img {
 	border: 1px solid #dadbdb;
@@ -5766,6 +5767,14 @@ a.img_popup:after {
 }
 .normal_text_slider.client_say_slider .desc {
 	margin-bottom: 0;
+	height: 70px;
+	overflow: visible;
+}
+
+@media screen and (max-width: 1200px) {
+    .normal_text_slider.client_say_slider .desc {
+        height: 175px !important;
+    }
 }
 .what_say_block {
 	position: relative;
@@ -16288,10 +16297,13 @@ span.comment_meta a {
 
 .txtShadow {
 	text-shadow:0 0 2px black;
+
 }
 
 .txtShadow2 {
 	text-shadow:0 0 1px black;
+	font-size: 20px;
+	font-weight: bold;
 }
 
 .bgPattern{
@@ -16301,3 +16313,4 @@ span.comment_meta a {
 .aboutMargin{
 	margin: 0 18px;
 }
+
